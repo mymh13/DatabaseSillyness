@@ -15,6 +15,7 @@ namespace DirtyAssignment2
         API
     }
 
+    // Factory pattern-like model using switch-case to determine the connection string based on the database type
     // Constructor with a dynamic connection string based on the database type
     internal class DatabaseManager
     {
